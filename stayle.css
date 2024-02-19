@@ -1,0 +1,524 @@
+:root {
+    --midnight-green: #014e56;
+    --light-coral: #f67e7e;
+    --white: #fff;
+    --rapture-blue: #79c8c7;
+    --polise-blue: #2c6269;
+    --deep-jungle-green: #004047;
+    --sacramento-state-green: #012f34;
+    --dark-green: #002529;
+}
+
+a{
+    display: inline-block;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: 'Livvic', sans-serif;
+    background-color: var(--midnight-green);
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    text-decoration: none;
+    display: flex;
+    margin-left: 80px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-list-item {
+    margin-right: 40px;
+}
+
+.contact-link{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 29px;
+    border: 1px solid white;
+    padding: 9px 32px 11px;
+    
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1150px;
+
+}
+
+.hero-container {
+    padding-top: 120px;
+    padding-bottom: 230px;
+    background-color: #014e56;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-title {
+    width: 100%;
+    max-width: 635px;
+    margin-right: 30px;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    color: var(--white);
+}
+
+.hero-title-coral {
+    color: #f67e7e;
+}
+
+.hero-context {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.main-hr {
+    width: 50px;
+    height: 4px;
+    margin-bottom: 79px;
+    color: var(--rapture-blue);
+}
+
+.hero-text {
+    color: var(--white);
+}
+
+.build {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: var(--sacramento-state-green);
+}
+
+.build-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.build-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    width: 445px;
+}
+
+.build-list {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.build-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.build-list-item {
+    display: flex;
+    margin-bottom: 32px;
+    width: 100%;
+    max-width: 540px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #FFFFFF;
+
+}
+
+.build-list-item-img {
+    margin-right: 23px;
+}
+
+.build-list-title {
+    color: #f67e7e;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+
+}
+
+.header-link-item-link {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.contact-link {
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* sektion */
+.storis {
+    grid-template: repeat(3 1fr);
+    gap: 30px;
+    color: var(--white);
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.storis-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.storis-title-mark {
+    color: var(--rapture-blue);
+}
+
+.storis-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.storis-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.storis-text {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.storis-owoner {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 24px;
+    text-align: center;
+    color: var(--rapture-blue);
+    margin-bottom: 2px;
+}
+
+.storis-owoner-job {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.storis-owoner-img {
+    border-radius: 50%;
+}
+
+.cta {
+    background-color: var(--light-coral);
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: var(--light-coral); */
+    padding: 76px;
+}
+
+.cta-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--sacramento-state-green);
+}
+
+.contact-link-blk {
+    color: var(--sacramento-state-green);
+    border: 2px solid var(--sacramento-state-green);
+}
+
+/* Abaut */
+.abaut-title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    color: var(--white);
+    margin-right: 30px;
+}
+
+.abaut-hero-container{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.hr-red {
+    background-color: var(--light-coral);
+}
+
+.hero-text {
+    width: 100%;
+    max-width: 730px;
+    line-height: 28px;
+}
+
+/* direktor */
+.direktor-section {
+    background-color: var(--deep-jungle-green);
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    row-gap: 30px;
+    column-gap: 48px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.direktor-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 64px;
+}
+
+.directors {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 76px;
+    column-gap: 30px;
+}
+
+.director {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 350px;
+    list-style: none;
+    padding-top: 32px;
+    padding-bottom: 56px;
+    background-color: var(--sacramento-state-green);
+}
+
+.direktor-img {
+    border-radius: 50%;
+}
+
+.direktor-heading {
+    color: var(--rapture-blue);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+}
+
+.direktor-job {
+    color: var(--white);
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+}
+
+.info-btn {
+    position: absolute;
+    bottom: -28px;
+    height: 56px;
+    width: 56px;
+    background-color: var(--light-coral);
+    border-radius: 50%;
+    border: none;
+}
+
+.plus-icon-blu {
+    background-color: var(--rapture-blue);
+}
+
+.plus-icon {
+    justify-content: center;
+}
+
+/* clients */
+.clients {
+    background-color: var(--sacramento-state-green);
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.clients-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 64px;
+    color: var(--white);
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.clien {
+    color: var(--white);
+}
+
+/* contact */
+.contact-container {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    color: var(--white);
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.ask-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 32px;
+    color: var(--light-coral);
+}
+
+.contact-list-item {
+    display: flex;
+}
+
+.contact-list-item-img {
+    margin-right: 23px;
+    margin-bottom: 8px;
+}
+
+.contact-list-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.input {
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 24px;
+}
+
+textarea{
+    height: 84px;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 24px;
+    resize: none;
+}
+
+.btn-submit{
+    padding: 9px 32px 11px;
+    border-radius: 24px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+/* footer */
+footer {
+    background-color: var(--dark-green);
+}
+
+.footer-container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+}
+
+.logo-nav {
+    margin-right: 125px;
+    text-align: start;
+}
+
+.footer-logo{
+    margin-bottom: 24px;
+}
+
+.footer-list {
+    margin-left: 0;
+}
+
+.footer-adress {
+    color: var(--white);
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    margin-bottom: 51px;
+}
+
+.social {
+    margin-right: 16px;
+}
+
+.copyright {
+    color: var(--white);
+}
